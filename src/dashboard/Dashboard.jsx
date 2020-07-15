@@ -8,8 +8,11 @@ const Dashboard = () => {
         <div className="col-1-3">
           <div className="card card-base">
             <div className="card-body">
-              <div className="card-header" />
-              <img src={avatar} alt="Avatar" className="card-img" />
+              <div className="card-header">Shanaka Abeysinghe</div>
+              <div className="card-header-desc">Senior Software Engineer</div>
+              <div className="card-img-container">
+                <img src={avatar} alt="Avatar" className="card-img" />
+              </div>
             </div>
           </div>
         </div>

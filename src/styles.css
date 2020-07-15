@@ -2,6 +2,9 @@
   box-sizing: border-box;
   margin: 0;
   font-family: sans-serif;
+}
+
+body {
   background-color: #f7fbff;
 }
 
@@ -25,6 +28,8 @@
 
 .card-body {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-header {
@@ -34,13 +39,18 @@
 
 .card-header-desc {
   font-size: 0.8rem;
-  color: rgb(185, 185, 185);
+  color: rgb(163, 163, 163);
 }
 
 .card-img {
-  width: 100%;
+  width: 50%;
 }
 
+.card-img-container {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
 .container {
   display: flex;
   flex-direction: column;
